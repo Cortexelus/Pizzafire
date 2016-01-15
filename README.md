@@ -82,7 +82,9 @@ add_to_jobs("inputs/style.png", "inputs/video_frame_sequence", True)
 ### Applying Style Transfer to Large Images
 # You will likely run out of GPU memory if you want your output image to be larger than 800px * 800px. 
 # Therefore, split a large content image into smaller slices, leave them in their own directory.
-# Use ImageSlicer.pynb to do this.
+# Use ImageSlicer.pynb to do this. Recombine slices later. 
+# Set hop_size lower than slice_size to have a blending margin. 
+# This is a naive approach, and produces subtle artifacts at edges. 
 add_to_jobs("inputs/style.png", "inputs/image_slices", True)
 
 # PIZZAFIRE
