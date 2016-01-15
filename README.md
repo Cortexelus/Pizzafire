@@ -22,7 +22,8 @@ Read more here https://github.com/jcjohnson/neural-style
        *  Enable outbound all traffic. 
 
 4. Install and run jupyter notebook. http://jupyter.org/
-5. Open Pizzafire.ipynb. Configure parameters of job. See *Configure* and *Jobs* sections for examples. Execute!
+5. Open Pizzafire.ipynb. Configure parameters of job. See *Configure* and *Jobs* sections for examples. 
+6. Run all code!
 
 ### Configure (from Pizzafire.ipynb)
 
